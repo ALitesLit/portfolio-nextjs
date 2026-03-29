@@ -1,0 +1,107 @@
+.projects {
+    gap: 2%;
+
+    min-height: 100vh;
+    width: 100%;
+    
+    .projects_content {
+        .projects_header {
+            max-width: 760px;
+            text-align: left;
+            margin-left: 20px;
+            font: 200 2em "IBM Plex Mono";
+        }
+
+        .projects_header::before {
+            content: "#";
+            color: $green_ligth;
+        }
+
+        .button_group {
+            width: 70vw;
+            gap: 15px;
+
+            @media screen and (max-width: 740px) {
+                justify-content: center;
+                width: 90vw;
+            }
+
+            button {
+                width: 20vw;
+                height: 40px;
+
+                border-radius: 5px;
+                background-color: gray;
+                color: white;
+                font: 200 1.5em "IBM Plex Mono";
+                cursor: pointer;
+                border: none;
+                transition: 0.3s;
+
+                @media screen and (max-width: 740px) {
+                    width: 40vw;
+                }
+
+                @media screen and (max-width: 375px) {
+                    font-size: 1em;
+                    width: 42vw;
+                }
+            }
+
+            .active {
+                background-color: $green_ligth;
+                color: white;
+                box-shadow: 0 0 15px $green_ligth;
+            }
+        }
+
+
+        .project_list {
+            width: 70vw;
+            gap: 25px;
+            margin-top: 70px;
+
+            @media screen and (max-width: 740px) {
+                justify-content: center;
+                width: 90vw;
+            }
+
+            .not_found {
+                font: 200 1.5em "IBM Plex Mono";
+            }
+        }
+
+
+        .load_new {
+            width: 100%;
+            text-align: center;
+            margin-top: 70px;
+            cursor: pointer;
+            color: gray;
+            transition: 0.3s;
+
+            @media screen and (hover: hover) {
+                &:hover {
+                    color: $green_ligth;
+                }
+            }
+        }
+    }
+
+
+    .projects_back {
+        img {
+            position: absolute;
+        }
+
+        .projects_back_dots {
+            top: 120px;
+            left: -20px;
+        }
+
+        .projects_back_dots2 {
+            top: 280px;
+            right: 90px;
+        }
+    }
+}

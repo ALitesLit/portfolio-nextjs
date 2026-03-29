@@ -1,0 +1,14 @@
+[
+    {
+      "id": 2,
+      "name": "Front-end",
+      "site": "https://www.freecodecamp.org/certification/fcc33423c96-0e01-49a1-844e-677e534d263a/front-end-development-libraries",
+      "photo": "/static/sertifies/сертефикат_front.png"
+    },
+    {
+      "id": 1,
+      "name": "Back-end",
+      "site": null,
+      "photo": "/static/sertifies/сертефикат_back.png"
+    }
+  ]

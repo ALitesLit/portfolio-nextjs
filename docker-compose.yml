@@ -1,0 +1,17 @@
+services:
+  front-end:
+    build:
+      context: .
+      args:
+        - NEXT_PUBLIC_API_URL=${NEXT_PUBLIC_API_URL}
+        - NEXT_PUBLIC_MOCK_ENV=${NEXT_PUBLIC_MOCK_ENV}
+
+    image: next-portfolio-client
+    restart: always
+    container_name: next-portfolio-client
+
+    env_file:
+      - .env.local
+    
+    ports:
+      - "3000:3000"

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans&display=swap');
+
+
+.main {
+    gap: 2%;
+
+    min-height: 100vh;
+    width: 100%;
+
+
+    @keyframes enter-text-cursor {
+        0% { opacity: 0; }
+        50% { opacity: 1; }
+        100% { opacity: 0; }
+    }
+
+    .main_elem {
+        max-width: 800px;
+
+        @media screen and (max-width: 768px) {
+            margin: 0px 15px;
+        }
+
+        .main_title {
+            font: 400 3em "IBM Plex Mono";
+            min-height: 1em;
+            color: $green_ligth;
+
+            @media screen and (max-width: 350px) {
+                font-size: 2em;
+            }
+        }
+
+
+        .main_text {
+            font: 400 15px "IBM Plex Mono";
+            color: gray;
+        }
+
+
+        .main_go {
+            width: 70%;
+            height: 50px;
+
+            margin-top: 40px;
+
+            cursor: pointer;
+            background-color: $green_ligth;
+            color: white;
+            font-size: 1.2em;
+            border-radius: 5px;
+            border: none;
+            box-shadow: 0 0 15px $green_ligth;
+        }
+
+        .enter {
+            width: 1px;
+            height: 1em;
+            margin: auto 0px;
+            margin-left: 10px;
+            margin-top: 5px;
+            position: absolute;
+            display: inline;
+
+            background-color: white;
+            animation: enter-text-cursor 1s infinite ease-in-out;
+        }
+    }
+
+
+    .main_photo {
+        width: 15%;
+        aspect-ratio: 1 / 1;
+        border: 5px solid green;
+        border-radius: 50%;
+
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
+
+        .image {
+            width: 90% !important; 
+            height: 90% !important;
+            border-radius: 50%;
+        }
+    }
+}

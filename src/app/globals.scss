@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu");
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans&display=swap');
+
+@tailwind base; 
+@tailwind components; 
+@tailwind utilities
+
+*::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: #000000;
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+  background-color: #00000000;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+
+img {
+  pointer-events: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: Ubuntu;
+  color: white;
+  background-color: black;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.hesteg {
+  content: "#";
+  color: green;
+}
+
+ul li {
+  list-style: none;
+}
+
+body > iframe {
+  display: none;
+}
+
+*::selection {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}

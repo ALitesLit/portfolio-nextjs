@@ -1,0 +1,215 @@
+[
+    {
+      "category": "Front-end",
+      "experienceList": [
+        {
+          "id": 4,
+          "name": "React",
+          "category": {
+            "id": 1,
+            "name": "Front-end",
+            "onHide": false,
+            "photo": "/portfolio/media/categoryProject/front_BfLUyBW.png"
+          },
+          "importance": 1
+        },
+        {
+          "id": 3,
+          "name": "Redux",
+          "category": {
+            "id": 1,
+            "name": "Front-end",
+            "onHide": false,
+            "photo": "/portfolio/media/categoryProject/front_BfLUyBW.png"
+          },
+          "importance": 2
+        },
+        {
+          "id": 12,
+          "name": "Next.js",
+          "category": {
+            "id": 1,
+            "name": "Front-end",
+            "onHide": false,
+            "photo": "/portfolio/media/categoryProject/front_BfLUyBW.png"
+          },
+          "importance": 2
+        },
+        {
+          "id": 13,
+          "name": "TypeScript",
+          "category": {
+            "id": 1,
+            "name": "Front-end",
+            "onHide": false,
+            "photo": "/portfolio/media/categoryProject/front_BfLUyBW.png"
+          },
+          "importance": 2
+        },
+        {
+          "id": 13,
+          "name": "JavaScript",
+          "category": {
+            "id": 1,
+            "name": "Front-end",
+            "onHide": false,
+            "photo": "/portfolio/media/categoryProject/front_BfLUyBW.png"
+          },
+          "importance": 2
+        },
+        {
+          "id": 1,
+          "name": "Sass",
+          "category": {
+            "id": 1,
+            "name": "Front-end",
+            "onHide": false,
+            "photo": "/portfolio/media/categoryProject/front_BfLUyBW.png"
+          },
+          "importance": 4
+        },
+        {
+          "id": 15,
+          "name": "Jest",
+          "category": {
+            "id": 1,
+            "name": "Front-end",
+            "onHide": false,
+            "photo": "/portfolio/media/categoryProject/front_BfLUyBW.png"
+          },
+          "importance": 4
+        },
+        {
+          "id": 16,
+          "name": "Tailwind",
+          "category": {
+            "id": 1,
+            "name": "Front-end",
+            "onHide": false,
+            "photo": "/portfolio/media/categoryProject/front_BfLUyBW.png"
+          },
+          "importance": 5
+        }
+      ]
+    },
+    {
+      "category": "Back-end",
+      "experienceList": [
+        {
+          "id": 7,
+          "name": "Django",
+          "category": {
+            "id": 2,
+            "name": "Back-end",
+            "onHide": false,
+            "photo": "/portfolio/media/categoryProject/back_2ab3awn.png"
+          },
+          "importance": 1
+        },
+        {
+          "id": 14,
+          "name": "Express.js",
+          "category": {
+            "id": 2,
+            "name": "Back-end",
+            "onHide": false,
+            "photo": "/portfolio/media/categoryProject/back_2ab3awn.png"
+          },
+          "importance": 1
+        },
+        {
+          "id": 8,
+          "name": "Spring",
+          "category": {
+            "id": 2,
+            "name": "Back-end",
+            "onHide": false,
+            "photo": "/portfolio/media/categoryProject/back_2ab3awn.png"
+          },
+          "importance": 1
+        },
+        {
+          "id": 7,
+          "name": "Python",
+          "category": {
+            "id": 2,
+            "name": "Back-end",
+            "onHide": false,
+            "photo": "/portfolio/media/categoryProject/back_2ab3awn.png"
+          },
+          "importance": 2
+        },
+        {
+          "id": 8,
+          "name": "Java",
+          "category": {
+            "id": 2,
+            "name": "Back-end",
+            "onHide": false,
+            "photo": "/portfolio/media/categoryProject/back_2ab3awn.png"
+          },
+          "importance": 2
+        },
+        {
+          "id": 6,
+          "name": "Docker",
+          "category": {
+            "id": 2,
+            "name": "Back-end",
+            "onHide": false,
+            "photo": "/portfolio/media/categoryProject/back_2ab3awn.png"
+          },
+          "importance": 2
+        },
+        {
+          "id": 5,
+          "name": "Linux",
+          "category": {
+            "id": 2,
+            "name": "Back-end",
+            "onHide": false,
+            "photo": "/portfolio/media/categoryProject/back_2ab3awn.png"
+          },
+          "importance": 5
+        }
+      ]
+    },
+    {
+      "category": "Databases",
+      "experienceList": [
+        {
+          "id": 11,
+          "name": "PostgreSQL",
+          "category": {
+            "id": 3,
+            "name": "Databases",
+            "onHide": true,
+            "photo": "/portfolio/media/categoryProject/front_BfLUyBW.png"
+          },
+          "importance": 1
+        },
+        {
+          "id": 10,
+          "name": "MySQL",
+          "category": {
+            "id": 3,
+            "name": "Databases",
+            "onHide": true,
+            "photo": "/portfolio/media/categoryProject/front_BfLUyBW.png"
+          },
+          "importance": 2
+        },
+        {
+          "id": 9,
+          "name": "SQLite",
+          "category": {
+            "id": 3,
+            "name": "Databases",
+            "onHide": true,
+            "photo": "/portfolio/media/categoryProject/front_BfLUyBW.png"
+          },
+          "importance": 5
+        }
+      ]
+    }
+  ]

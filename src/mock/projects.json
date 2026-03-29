@@ -1,0 +1,278 @@
+[
+    {
+      "id": 1,
+      "name": "Neurorealtor сайт",
+      "category": [
+        {
+          "id": 1,
+          "name": "Front-end",
+          "onHide": false
+        }
+      ],
+      "deskription": "Проект, в создании которого я принимал участие во время работы в Нейрориэлторе",
+      "short_deskription": null,
+      "site": "https://neurorealtor.pro/home",
+      "experience": ["Next.js", "React", "Redux", "Sass"],
+      "importance": 2
+    },
+    {
+      "id": 2,
+      "name": "vseTUT сайт",
+      "category": [
+        {
+          "id": 1,
+          "name": "Front-end",
+          "onHide": false
+        }
+      ],
+      "deskription": "Сайт, при разработке которого я принимал участие во время работы во vseTUT",
+      "short_deskription": null,
+      "site": "https://vsetutshop.ru/",
+      "experience": ["Next.js", "React", "Redux", "Sass"],
+      "importance": 1
+    },
+    {
+      "id": 3,
+      "name": "Сайт-портфолио",
+      "category": [
+        {
+          "id": 1,
+          "name": "Front-end",
+          "onHide": false
+        },
+        {
+          "id": 2,
+          "name": "Back-end",
+          "onHide": false
+        }
+      ],
+      "deskription": "Мой сайт-портфолио. Недавно получил крупное обновление и был переписан с Django на Spring",
+      "short_deskription": null,
+      "site": "https://clck.ru/3Egmim",
+      "experience": [],
+      "importance": 3
+    },
+    {
+      "id": 15,
+      "name": "Карта полигонов",
+      "category": [
+        {
+          "id": 1,
+          "name": "Front-end",
+          "onHide": false
+        }
+      ],
+      "deskription": "Карта, на которой можно создать, редактировать и отображать полигоны",
+      "short_deskription": null,
+      "site": "https://clck.ru/3JRu7q",
+      "experience": [],
+      "importance": 3
+    },
+    {
+      "id": 11,
+      "name": "Annonce. Лендинг интернет-магазина",
+      "category": [
+        {
+          "id": 1,
+          "name": "Front-end",
+          "onHide": false
+        }
+      ],
+      "deskription": "Лендинг для интернет-магазина женской одежды Annonce",
+      "short_deskription": null,
+      "site": "https://clck.ru/3Ezrh3",
+      "experience": [],
+      "importance": 4
+    },
+    {
+      "id": 12,
+      "name": "Todo List",
+      "category": [
+        {
+          "id": 1,
+          "name": "Front-end",
+          "onHide": false
+        }
+      ],
+      "deskription": "Список задач. Здесь была реализована механика \"drag and drop\", использованы TypeScript, SCSS, Redux, React, React Form",
+      "short_deskription": null,
+      "site": "https://clck.ru/3FgDR5",
+      "experience": [],
+      "importance": 4
+    },
+    {
+      "id": 14,
+      "name": "Match Tracker",
+      "category": [
+        {
+          "id": 1,
+          "name": "Front-end",
+          "onHide": false
+        }
+      ],
+      "deskription": "Трекер киберспортивных матчей",
+      "short_deskription": null,
+      "site": "https://goo.su/g9V7fiJ",
+      "experience": [],
+      "importance": 4
+    },
+    {
+      "id": 13,
+      "name": "Админ. панель для склада",
+      "category": [
+        {
+          "id": 1,
+          "name": "Front-end",
+          "onHide": false
+        },
+        {
+          "id": 1,
+          "name": "Front-end",
+          "onHide": false
+        }
+      ],
+      "deskription": " При создании проекта использовался TypeScript, Redux, React",
+      "short_deskription": null,
+      "site": "https://clck.ru/3JRqH4",
+      "experience": [],
+      "importance": 4
+    },
+    {
+      "id": 7,
+      "name": "Random Quote Machine",
+      "category": [
+        {
+          "id": 1,
+          "name": "Front-end",
+          "onHide": false
+        }
+      ],
+      "deskription": "Один из проектов, созданный мной при обучении на freeCodeCamp()",
+      "short_deskription": null,
+      "site": "https://clck.ru/399PFu",
+      "experience": [],
+      "importance": 5
+    },
+    {
+      "id": 8,
+      "name": "25 + 5 clock",
+      "category": [
+        {
+          "id": 1,
+          "name": "Front-end",
+          "onHide": false
+        }
+      ],
+      "deskription": "Один из проектов, созданный мной при обучении на freeCodeCamp()",
+      "short_deskription": null,
+      "site": "https://clck.ru/399P8A",
+      "experience": [],
+      "importance": 5
+    },
+    {
+      "id": 5,
+      "name": "Student List",
+      "category": [
+        {
+          "id": 1,
+          "name": "Front-end",
+          "onHide": false
+        },
+        {
+          "id": 2,
+          "name": "Back-end",
+          "onHide": false
+        }
+      ],
+      "deskription": "Один из самых старых моих проектов, написанных на Django. В нём вы можете создать запись о студенте, редактировать и удалять её",
+      "short_deskription": null,
+      "site": null,
+      "experience": [],
+      "importance": 5
+    },
+    {
+      "id": 6,
+      "name": "JavaScript Calculator",
+      "category": [
+        {
+          "id": 1,
+          "name": "Front-end",
+          "onHide": false
+        }
+      ],
+      "deskription": "Один из проектов, созданный мной при обучении на freeCodeCamp()",
+      "short_deskription": null,
+      "site": "https://clck.ru/399P24",
+      "experience": [],
+      "importance": 5
+    },
+    {
+      "id": 10,
+      "name": "Интернет магазин на Django",
+      "category": [
+        {
+          "id": 1,
+          "name": "Front-end",
+          "onHide": false
+        }
+      ],
+      "deskription": "Одно из домашних заданий, которое я выполнял при обучении в университете \"Синергия\". Простенький интернет-магазин на Django",
+      "short_deskription": null,
+      "site": "https://clck.ru/3EgnpM",
+      "experience": [],
+      "importance": 6
+    },
+    {
+      "id": 2,
+      "name": "MyBlog",
+      "category": [
+        {
+          "id": 1,
+          "name": "Front-end",
+          "onHide": false
+        },
+        {
+          "id": 2,
+          "name": "Back-end",
+          "onHide": false
+        }
+      ],
+      "deskription": "Сайт-блог со стеком Spring + PostgreSQL + React",
+      "short_deskription": null,
+      "site": "https://clck.ru/3Egmim",
+      "experience": [],
+      "importance": 6
+    },
+    {
+      "id": 9,
+      "name": "Итоговый проект",
+      "category": [
+        {
+          "id": 2,
+          "name": "Back-end",
+          "onHide": false
+        }
+      ],
+      "deskription": "Проект, написанный мной по окончанию обучения в Университете \"Синергия\". Программа на Python, в которой вы можете создать, редактировать и удалить запись о сотруднике. Все это работает в связке с базой данных SQLite",
+      "short_deskription": null,
+      "site": "https://clck.ru/3Egmwu",
+      "experience": [],
+      "importance": 3
+    },
+    {
+      "id": 4,
+      "name": "MayBe",
+      "category": [
+        {
+          "id": 1,
+          "name": "Front-end",
+          "onHide": false
+        }
+      ],
+      "deskription": "Сайт и телеграмм бот, написанные мной при работе в MayBe",
+      "short_deskription": null,
+      "site": null,
+      "experience": [],
+      "importance": 7
+    }
+]

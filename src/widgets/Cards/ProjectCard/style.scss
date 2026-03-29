@@ -1,0 +1,90 @@
+.project__card {
+    width: 20vw;
+    min-height: 300px;
+    max-width: 250px;
+    position: relative;
+
+    border: 3px solid gray;
+    background-color: black;
+    color: gray;
+    padding-bottom: 45px;
+
+    
+    @media screen and (max-width: 768px) {
+        width: 30vw;
+    }
+    
+    @media screen and (max-width: 740px) {
+        width: 40vw;
+    }
+
+    @media screen and (max-width: 620px) {
+        font-size: 1em;
+        width: 65vw;
+        max-width: 250px;
+    }
+
+
+    .project__card-header {
+        width: calc(100% - 20px);
+        min-height: 1em;
+        
+        border-bottom: 3px solid gray;
+        overflow: hidden;
+        text-align: center;
+        font: 100 "IBM Plex Mono";
+
+        display: flex;
+        justify-content: center;
+        overflow-x: hidden;
+        text-overflow: ellipsis;
+        gap: 10px;
+        padding: 0px 10px;
+
+        h1 {
+            text-align: center;
+            
+            font-size: 1.7em;
+
+            width: 100%;
+        }
+    }
+
+
+    .project__card-content {
+        padding: 0px 15px;
+
+        p {
+            text-indent: 8px;
+
+            @media screen and (max-width: 480px) {
+                text-indent: 0px;
+            }
+        }
+    }
+
+    .project__card-bottom {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        width: 100%;
+
+
+        .project__card-open {
+            height: 35px;
+            width: calc(100% - 20px);
+            background-color: transparent;
+            color: gray;
+            border: 2px solid gray;
+            cursor: pointer;
+
+            @media screen and (hover: hover) {
+                &:hover {
+                    transition: 0.3s;
+                    color: $green_ligth;
+                    border-color: $green_ligth;
+                }
+            }
+        }
+    }
+}

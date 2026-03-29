@@ -1,0 +1,36 @@
+.menu {
+    position: fixed;
+    z-index: 6;
+    top: 0px;
+    left: 0px;
+
+    .menu_wrapper {
+        max-width: 400px;
+        width: 80vw;
+        height: 100vh;
+
+        position: fixed;
+        z-index: 7;
+        top: 0px;
+        right: 0px;
+        display: block;
+
+        background-color: rgb(0, 0, 0);
+        box-shadow: -10px 4px 30px 0px rgba(107, 107, 107, 0.432);
+    }
+
+
+    .menu_black_back {
+        width: 100vw;
+        height: 100vh;
+
+        position: fixed;
+        z-index: 7;
+        top: 0px;
+        left: 0px;
+        display: block;
+
+        background-color: rgb(0, 0, 0);
+        opacity: 60%;
+    }
+}

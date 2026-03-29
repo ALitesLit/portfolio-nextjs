@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "name": "Telegramm",
+      "site": "https://t.me/alitesno",
+      "photo": "/static/social/tg.png"
+    },
+    {
+      "id": 3,
+      "name": "E-mail",
+      "site": "mailto:aliteslite@gmail.com",
+      "photo": "/static/social/mail.png"
+    },
+    {
+      "id": 2,
+      "name": "Git Hub",
+      "site": "https://github.com/ALitesLit",
+      "photo": "/static/social/gh.png"
+    }
+]
